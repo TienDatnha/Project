@@ -1,123 +1,50 @@
-*{
-    padding :0;
-    margin: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+   <div id="main">
+    <div id="header">
+        <ul id="nav">
+            <li><a href="">Home</a></li>
+            <li><a href="">Band</a></li>
+            <li><a href="">Tour</a></li>
+            <li><a href="">Contact</a></li>
+            <li>
+                <a href="">
+                    More
+                    <i class="nav-arrow-down ti-angle-down"></i>
 
-html{
-    font-family: Arial, Helvetica, sans-serif;
-}
+                </a>
+                <ul class="subnav">
+                    <li><a href="">Merchandise</a></li>
+                    <li><a href="">Extras</a></li>
+                    <li><a href="">Media</a></li>
+                </ul>
+                </ul>
+            </li>
+        </ul>
+          <div class="search-button">
+            <i class="ti-search"></i>
+          </div>
+    </div>
+    <div id="slider">
+      <div class="text-content">
+        <h2 class="text-heading">New York</h2>
+      <div class="text-desc">The atmosphere in New York is lorem ipsum.</div>
+      </div>
+    </div>
+    <div id="content">
 
-#main{
+    </div>
+    <div id="footer">
 
-}
-
-#header{
-    height:46px; 
-    background-color:black;
-    position: fixed;
-    top:0;
-    left:0;
-    right: 0;
-    z-index: 1;
-}
-#nav{
-    display: inline-block;
-}
-#nav, .subnav{
-list-style-type: none;
-
-}
-#nav>li{
-    display: inline-block;
-}
-#nav li{
-    position: relative;
-}
-#nav li a{
-    line-height: 46px;
-   padding: 0px 24px;
-   display:block;
-    text-decoration: none;
-}
-
-#nav>li>a {
-    text-transform: uppercase;
-    color:#fff;
-}
-#nav>li:hover>a{
-    color: black;
-    background-color: #a6a5a5;
-}
-#nav .subnav li:hover a{
-    color: black;
-    background-color: #a6a5a5;
-}
-#nav li:hover .subnav{
-    display: block;
-}
-#nav .subnav{
-    min-width: 160px;
-    top:100%;
-    left: 0;
-    display: none;
-    position: absolute;
-    background-color: aliceblue;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-
-#nav .subnav a{
-    color:black;
-    padding: 0 16px;
-}
-#nav .nav-arrow-down{
-    font-size: 14px;
-
-}
-#header .search-button{
-float:right;
-}
-
-#header .search-button .ti-search{
-color:#fff;
-font-size: 20px;
-line-height: 46px;
-padding: 0 16px;
-}
-#header .search-button:hover{
-    background-color: red;
-    color: #fff;
-    cursor: pointer;
-}
-#slider{
-    margin-top: 46px;
-    padding-top: 50%;
-    background: url('/F8/The\ Band/assets/img/slider1/ny.jpg') top center/ cover no-repeat;
-    position: relative;
-}
-#slider .text-content{
-    position: absolute;
-    color:#fff;
-    text-align: center;
-    bottom: 47px;
-    right:0%;
-    left:0%;
-}
-
-#slider .text-heading{
-font-weight: 500;
-font-size: 24px;
-}
-
-#slider .text-desc{
-font-size: 15px;
-margin-top: 25px;
-}
-
-#content{
-height: 1000px;
-}
-
-#footer{
-
-}
+    </div>
+   </div>
+</body>
+</html>
